@@ -66,7 +66,7 @@ source "$HOME/.cargo/env"
 
 ```bash
 git clone <your-repo-url>
-cd cosmic_rss
+cd CosmicRSS
 
 # Check for errors without building
 cargo check
