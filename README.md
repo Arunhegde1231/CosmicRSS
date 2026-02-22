@@ -85,6 +85,12 @@ On first run, `rss.db` will be created in the current directory. Delete it to st
 rm rss.db && ./target/release/cosmic-rss
 ```
 
+Or do everything at once with this command:
+
+```bash
+cargo build --release && rm rss.db && ./target/release/cosmic-rss
+```
+
 ---
 
 ## Project structure
